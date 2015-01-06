@@ -3302,7 +3302,7 @@ declare module Phaser {
 
         clone(output: Phaser.Polygon): Phaser.Polygon;
         contains(x: number, y: number): boolean;
-        setTo(points: any[]): void;
+        setTo(...points: any[]): void;
 
     }
 
